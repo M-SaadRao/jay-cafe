@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap');
+
+* {
+    font-family: "Poppins", serif !important;
+}
+
+.yellowtail-font {
+    font-family: "Yellowtail", cursive !important;
+}
+
+.playFont {
+    font-family: "Playwrite NZ", cursive !important;
+}
+
+/* scrollbar styling  */
+
+/* Add this to your CSS file, e.g., index.css or App.css */
+.scrollbar-thin {
+    scrollbar-width: thin;
+}
+
+.scrollbar-brown {
+    scrollbar-color: #a52a2a #f5f5f5;
+    /* Brown thumb and light background */
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    width: 1px;
+    /* Small width */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #a52a2a;
+    /* Brown thumb */
+    border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    /* Light background */
+}
+
+.ant-drawer-body {
+    padding: 0 !important;
+}
+
+.hero-section .slick-dots li button::after {
+    background: #a10e1d !important;
+}
+
+
+.mobile-menu .slick-prev,
+.mobile-menu .slick-next {
+    color: black !important;
+    opacity: 1 !important;
+}
+
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+    color: #1d6cb6 !important;
+    font-weight: bold;
+}
