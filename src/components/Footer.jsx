@@ -32,7 +32,7 @@ const Footer = () => {
 
                         {/*  Needville Location */}
                         <div className="text-center sm:text-left mt-5 sm:pl-5">
-                            <h2 className="text-[40px] font-medium mb-4 yellowtail-font">Needville</h2>
+                            <h2 className="text-[30px] font-medium mb-4">Needville</h2>
                             <p className="text-gray-700 text-[16px]">
                                 Full Service: <br />
                                 <span><span>16634 TX-36, Needville,<br /> TX 77461</span></span>
@@ -60,7 +60,7 @@ const Footer = () => {
 
                         {/* Lake Jackson Location */}
                         <div className="text-center sm:text-left mt-5">
-                            <h2 className="text-[40px] font-medium mb-4 yellowtail-font">Lake Jackson</h2>
+                            <h2 className="text-[30px] font-medium mb-4">Lake Jackson</h2>
                             <p className="text-gray-700 text-[16px]">
                                 Full Service: <br />
                                 <span>145 Oyster Creek 1-A, Lake Jackson, TX 77566</span>
@@ -89,7 +89,7 @@ const Footer = () => {
                         
                          {/* TangerOutlet Mall */}
                         <div className="text-center sm:text-left mt-5">
-                            <h2 className="text-[40px] font-medium mb-4 yellowtail-font">TangerOutlet Mall</h2>
+                            <h2 className="text-[30px] font-medium mb-4">TangerOutlet Mall</h2>
                             <p className="text-gray-700 text-[16px]">
                                 Full Service: <br />
                                 <span>Texas City Tanger Outlets Mall Suite 353 </span>
