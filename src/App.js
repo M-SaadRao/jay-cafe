@@ -24,6 +24,10 @@ import CatProducts from './components/CatProducts';
 import GiftCards from './screens/GiftCards';
 import BluePlate from './screens/BluePlate';
 import PartyTray from './screens/PartyTray';
+import Texas from './components/Texas';
+import Lakejackson from './components/Lakejackson';
+import Needville from './components/Needville';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -89,6 +93,12 @@ function App() {
           </>
         }
         <Route path='*' element={<NotFound />} />
+        <Route path="texas" element={<Texas />} />
+        <Route path="lakejackson" element={<Lakejackson />} />
+        <Route path="needville" element={<Needville />} />
+        <Route path="contact" element={<Contact />} />
+
+
       </Routes>
     </>
   );

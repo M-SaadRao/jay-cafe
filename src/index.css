@@ -65,3 +65,7 @@ button.slick-arrow.slick-prev {
     color: #1d6cb6 !important;
     font-weight: bold;
 }
+
+.about-bg{
+    background-color: #1d6cb5;
+}

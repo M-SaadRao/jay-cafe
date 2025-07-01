@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import Container from './Container';
 import { FaLocationArrow } from 'react-icons/fa6';
 import { Button } from 'antd';
+import Contact from './Contact';
 
 const Footer = () => {
     return (
@@ -47,6 +48,8 @@ const Footer = () => {
                                 <span>View On Map</span>
                                 <FaLocationArrow />
                             </Button>
+                            <br />
+                            <Link to="/contact" className='text-red-600 hover:text-blue-400'>Contact Us:</Link>
                             <p className="mt-2">Phone: <Link to="tel:+19797937900" className='font-medium'>(979) 793-7900</Link></p>
                             <div className="flex justify-center sm:justify-start mt-4 space-x-4 text-gray-500">
                                 <Link to="https://www.facebook.com/thejaycafeneedville/" target='_blank'>
@@ -75,6 +78,8 @@ const Footer = () => {
                                 <span>View On Map</span>
                                 <FaLocationArrow />
                             </Button>
+                            <br />
+                            <Link to="/contact" className='text-red-600 hover:text-blue-400'>Contact Us:</Link>
                             {/* <Link className='text-sm flex items-center gap-3 border' to="https://g.co/kgs/4YQrcv8" target='_blank'><FaLocationArrow className='text-lg text-secondary' /> <span>View On Map</span></Link> */}
                             <p className="mt-2">Phone: <Link to="tel:+19792928278" className='font-medium'>(979) 292-8278</Link> </p>
                             <div className="flex justify-center sm:justify-start mt-4 space-x-4 text-gray-500">
@@ -104,6 +109,8 @@ const Footer = () => {
                                 <span>View On Map</span>
                                 <FaLocationArrow />
                             </Button>
+                            <br />
+                            <Link to="/contact" className='text-red-600 hover:text-blue-400'>Contact Us:</Link>
                             {/* <Link className='text-sm flex items-center gap-3 border' to="https://g.co/kgs/4YQrcv8" target='_blank'><FaLocationArrow className='text-lg text-secondary' /> <span>View On Map</span></Link> */}
                             <p className="mt-2">Phone: <Link to="tel:+12819898889" className='font-medium'>(281) 989-8889</Link> </p>
                             <div className="flex justify-center sm:justify-start mt-4 space-x-4 text-gray-500">
