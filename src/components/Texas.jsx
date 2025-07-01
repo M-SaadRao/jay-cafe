@@ -1,21 +1,45 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import Container from './Container'
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Container from "./Container";
 
 function Texas() {
   return (
     <>
-    <Header />
-    <Container>
+      <Header />
+      <Container>
         <h3 className="text-[30px] text-black mt-5 mb-3 pt-3 text-center md:text-[45px] font-medium yellowtail-font leading-none">
-          Texas City
+          Lake Jackson
         </h3>
-        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur autem doloribus nisi, reiciendis aperiam voluptatem recusandae voluptas modi sequi hic repellat obcaecati blanditiis labore minima excepturi. Magnam impedit sit quos deserunt odio quaerat eos nisi atque mollitia veniam officiis ullam sed ipsum iusto fugiat neque aliquam quas minima, nobis doloremque! Tenetur dolorum fugit cum, dolores repellendus modi eos sapiente iste labore impedit eum itaque laborum quas? Reprehenderit corrupti veritatis ipsam aliquid blanditiis ut facilis itaque dicta minus eius ad ratione quibusdam, saepe in dignissimos aliquam nihil nemo qui consequatur non asperiores maxime architecto. Eaque suscipit, magnam necessitatibus pariatur soluta labore quae id amet ducimus, similique possimus nam quisquam quidem inventore. Aperiam, quaerat modi voluptas quam quis iste eligendi cupiditate ullam molestiae odio, culpa maiores possimus laboriosam nisi sequi excepturi quos corporis non dolorem ad unde labore! Veniam explicabo praesentium aliquid. Rerum quae inventore amet pariatur distinctio aperiam odit autem vero sed hic odio laudantium in voluptates omnis, aut aspernatur reiciendis excepturi optio? Odio similique quod officia voluptatum molestiae, aliquid, totam nesciunt dicta soluta est, eligendi eos qui mollitia aut necessitatibus! Doloribus voluptas suscipit nulla culpa! Quo in, voluptatibus laboriosam iste enim omnis facilis quis beatae sint provident ipsa totam assumenda at quaerat, ad mollitia modi id. Officiis sapiente veritatis molestiae aut ipsam ratione assumenda sit itaque. Similique quis porro nulla, temporibus officia veniam quas natus? Incidunt sint ab reprehenderit quam laudantium dolore ullam id quod expedita ad, fugit cupiditate obcaecati totam autem. Delectus voluptatem praesentium consequatur, unde voluptate odit explicabo laborum accusamus harum aperiam quasi eligendi illum incidunt officia tenetur vitae, molestias, culpa quas? In, soluta nisi odit voluptas facere animi. Commodi, autem eveniet! Ducimus deleniti saepe omnis dolore, eos eveniet sit. Repudiandae delectus reprehenderit provident doloribus sint, ratione omnis, non, eaque accusamus quis perferendis? Sunt saepe quibusdam quos similique!</p>
-    </Container>
-    <Footer />
+        <p className="text-center text-gray-700 max-w-3xl mx-auto mb-8 text-lg leading-relaxed">
+          Welcome to{" "}
+          <span className="font-semibold text-primary">
+            The Jay Café – Texas City
+          </span>
+          , our vibrant location nestled inside the Tanger Outlet Mall. Whether
+          you’re shopping, meeting friends, or just passing through, this stop
+          is the perfect place to refuel with fresh, made-from-scratch meals. We
+          bring our classic homestyle cooking and friendly service to a
+          fast-paced retail setting — so you can enjoy the comfort of The Jay
+          Café no matter where your day takes you.
+        </p>
+        <p className="text-end mb-4 text-red-600">
+          Open Every Day: 10 AM - 9 PM
+        </p>
+
+        <div className="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-lg shadow">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.6216311373923!2d-95.0593301!3d29.4249243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f7d7ad28b0647%3A0x8f9a0665caca897c!2sThe%20Jay%20Cafe%20Texas%20City!5e1!3m2!1sen!2s!4v1751383705276!5m2!1sen!2s"
+            className="absolute top-0 left-0 w-full h-full border-0"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </Container>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Texas
+export default Texas;
