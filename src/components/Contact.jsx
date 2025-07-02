@@ -72,10 +72,7 @@ function Contact() {
             ))}
           </div>
 
-          <div className="text-center mt-12 text-lg font-medium text-gray-700">
-            We're open every day:{" "}
-            <span className="text-primary">10 AM - 9 PM</span>
-          </div>
+          
         </section>
       </Container>
     </>
