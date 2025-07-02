@@ -9,7 +9,7 @@ function Texas() {
       <Header />
       <Container>
         <h3 className="text-[30px] text-black mt-5 mb-3 pt-3 text-center md:text-[45px] font-medium yellowtail-font leading-none">
-          Lake Jackson
+          Texas
         </h3>
         <p className="text-center text-gray-700 max-w-3xl mx-auto mb-8 text-lg leading-relaxed">
           Welcome to{" "}
