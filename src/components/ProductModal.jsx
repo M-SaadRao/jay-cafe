@@ -248,7 +248,7 @@ const ProductModal = ({
             )}
             {product.addons === "1" && product.addons_list.length > 0 && (
               <div className="mb-2 border border-gray-100 rounded-lg p-2 bg-gray-100">
-                <h4 className="block font-medium mb-2 text-[16px] border-b border-gray-200">
+                <h4 className="block playFont mb-2 text-[16px] border-b border-gray-200">
                   Addons
                 </h4>
                 {product.addons_list.map((addon) => (

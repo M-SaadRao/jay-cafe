@@ -3,14 +3,14 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Container from "./Container";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import image from "../assets/images/jay_img.png";
+import image from "../assets/images/jay_img2.png";
 
 function Needville() {
   return (
     <>
       <Header />
       <Container>
-        <h3 className="text-[35px] text-black mt-5 mb-3 pt-3 text-center md:text-[45px] font-medium yellowtail-font leading-none">
+        <h3 className="text-[35px] text-black mt-5 mb-3 pt-3 text-center md:text-[45px]  yellowtail-font leading-none">
           Needville
         </h3>
         <p className="text-start md:text-center text-gray-700 max-w-5xl mx-auto px-4 mb-8 text-lg leading-relaxed">
@@ -30,13 +30,12 @@ function Needville() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 my-10 px-4">
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold text-red-600 mb-4">
-              Contact:
-            </h3>
+            <h3 className="text-xl playFont text-red-600 mb-4">Contact:</h3>
             <p className="flex items-start mb-3 text-gray-700">
               <FaMapMarkerAlt className="text-primary mt-1 mr-2 size-5" />
               <span>
-                16634 TX-36, Needville, <br />TX 77461, United States
+                16634 TX-36, Needville, <br />
+                TX 77461, United States
               </span>
             </p>
             <p className="flex items-center text-gray-700">
@@ -47,7 +46,7 @@ function Needville() {
 
           {/* Open Hours */}
           <div>
-            <h3 className="text-xl font-semibold text-red-600 mb-4">
+            <h3 className="text-xl playFont text-red-600 mb-4">
               Jay Cafe Open Hours:
             </h3>
             <div className="text-gray-700 space-y-1">
@@ -63,10 +62,20 @@ function Needville() {
 
           {/* enjoy */}
           <div>
-            <h3 className="text-xl font-semibold text-red-600 mb-4">
-              Enjoy The Best Taste with:
+            <h3 className="text-xl playFont text-red-600 mb-4">
+              Enjoy Best Online Delivery with:
             </h3>
-            <img src={image} alt="jay Cafe" className="w-[180px] h-auto" />
+            <a
+              href="https://order.online/store/the-jay-cafe-needville-23308433/?hideModal=true&pickup=true"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={image}
+                alt="Jay Cafe"
+                className="w-[180px] h-auto text-center"
+              />
+            </a>
           </div>
         </div>
 

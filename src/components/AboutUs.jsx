@@ -1,19 +1,18 @@
 import React from "react";
 import Container from "./Container";
-import index from "../index.css";
 
 function AboutUs() {
   return (
     <Container>
       <div className="text-center about-bg p-5 rounded-lg">
-        <h3 className="text-[30px] text-white mt-5 mb-3 pt-3 text-center md:text-[45px] font-medium yellowtail-font leading-none">
+        <h3 className="text-[30px] text-white mt-5 mb-3 pt-3 text-center md:text-[45px] yellowtail-font leading-none">
           About Us
         </h3>
 
         {/* Grid wrapper for 3 columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
           <div>
-            <h3 className="text-[25px] text-gray-800 mt-5 mb-3 pt-3 text-center md:text-[35px] font-medium yellowtail-font leading-none">
+            <h3 className="text-[22px] text-gray-800 mt-5 mb-3 pt-3 text-center md:text-[28px] playFont leading-none">
               Our Story
             </h3>
             <p className="text-white">
@@ -26,7 +25,7 @@ function AboutUs() {
             </p>
           </div>
           <div>
-            <h3 className="text-[25px] text-gray-800 mt-5 mb-3 pt-3 text-center md:text-[35px] font-medium yellowtail-font leading-none">
+            <h3 className="text-[22px] text-gray-800 mt-5 mb-3 pt-3 text-center md:text-[28px] playFont leading-none">
               Dine In or Take Out
             </h3>
             <p className="text-white">
@@ -37,7 +36,7 @@ function AboutUs() {
             </p>
           </div>
           <div>
-            <h3 className="text-[25px] text-gray-800 mt-5 mb-3 pt-3 text-center md:text-[35px] font-medium yellowtail-font leading-none">
+            <h3 className="text-[22px] text-gray-800 mt-5 mb-3 pt-3 text-center md:text-[28px] playFont leading-none">
               The Jay Promise
             </h3>
             <p className="text-white">

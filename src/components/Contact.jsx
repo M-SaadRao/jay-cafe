@@ -34,7 +34,7 @@ function Contact() {
       <Header />
       <Container>
         <section className="py-10">
-          <h3 className="text-[30px] md:text-[45px] text-center font-medium yellowtail-font text-primary mb-10">
+          <h3 className="text-[30px] md:text-[45px] text-center yellowtail-font text-primary mb-10">
             Contact Us
           </h3>
           <p className="text-center text-gray-700 max-w-3xl mx-auto mb-10 text-lg">

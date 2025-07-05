@@ -38,7 +38,7 @@ const Footer = () => {
 
             {/*  Needville Location */}
             <div className="text-center sm:text-left mt-5 sm:pl-5">
-              <h2 className="text-[30px] font-medium mb-4">Needville</h2>
+              <h2 className="text-[30px] yellowtail-font mb-4">Needville</h2>
               <p className="text-gray-700 text-[16px]">
                 Full Service: <br />
                 <span>
@@ -61,10 +61,13 @@ const Footer = () => {
               <Button
                 type="primary"
                 size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2 "
-                onClick={() => navigate("/contact")}
+                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                onClick={() =>
+                  (window.location.href =
+                    "https://order.online/store/the-jay-cafe-needville-23308433/?hideModal=true&pickup=true")
+                }
               >
-                <span>Contact Us</span>
+                <span>Order Online</span>
                 <FaLocationArrow />
               </Button>
               <p className="mt-2">
@@ -91,7 +94,7 @@ const Footer = () => {
 
             {/* Lake Jackson Location */}
             <div className="text-center sm:text-left mt-5">
-              <h2 className="text-[30px] font-medium mb-4">Lake Jackson</h2>
+              <h2 className="text-[30px] yellowtail-font mb-4">Lake Jackson</h2>
               <p className="text-gray-700 text-[16px]">
                 Full Service: <br />
                 <span>145 Oyster Creek 1-A, Lake Jackson, TX 77566</span>
@@ -105,14 +108,17 @@ const Footer = () => {
                 <span>View Details</span>
                 <FaLocationArrow />
               </Button>
-            
+
               <Button
                 type="primary"
                 size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2 "
-                onClick={() => navigate("/contact")}
+                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                onClick={() =>
+                  (window.location.href =
+                    "https://order.online/store/the-jay-cafe-lake-jackson-26102938/?hideModal=true&pickup=true")
+                }
               >
-                <span>Contact Us</span>
+                <span>Order Online</span>
                 <FaLocationArrow />
               </Button>
               {/* <Link className='text-sm flex items-center gap-3 border' to="https://g.co/kgs/4YQrcv8" target='_blank'><FaLocationArrow className='text-lg text-secondary' /> <span>View On Map</span></Link> */}
@@ -140,7 +146,7 @@ const Footer = () => {
 
             {/* TangerOutlet Mall */}
             <div className="text-center sm:text-left mt-5">
-              <h2 className="text-[30px] font-medium mb-4">
+              <h2 className="text-[30px] yellowtail-font mb-4">
                 TangerOutlet Mall
               </h2>
               <p className="text-gray-700 text-[16px]">
@@ -159,13 +165,16 @@ const Footer = () => {
               <Button
                 type="primary"
                 size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2 "
-                onClick={() => navigate("/contact")}
+                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                onClick={() =>
+                  (window.location.href =
+                    "https://order.online/store/the-jay-cafe-texas-city-33557927/?hideModal=true&pickup=true")
+                }
               >
-                <span>Contact Us</span>
+                <span>Order Online</span>
                 <FaLocationArrow />
               </Button>
-              
+
               {/* <Link className='text-sm flex items-center gap-3 border' to="https://g.co/kgs/4YQrcv8" target='_blank'><FaLocationArrow className='text-lg text-secondary' /> <span>View On Map</span></Link> */}
               <p className="mt-2">
                 {/* Phone:{" "}

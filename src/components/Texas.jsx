@@ -3,14 +3,14 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Container from "./Container";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import image from "../assets/images/jay_img.png"
+import image from "../assets/images/jay_img2.png";
 
 function Texas() {
   return (
     <>
       <Header />
       <Container>
-        <h3 className="text-[35px] text-black mt-5 mb-3 pt-3 text-center md:text-[45px] font-medium yellowtail-font leading-none">
+        <h3 className="text-[35px] text-black mt-5 mb-3 pt-3 text-center md:text-[45px] yellowtail-font leading-none">
           Texas City
         </h3>
         <p className="text-start md:text-center text-gray-700 max-w-5xl mx-auto px-4 mb-8 text-lg leading-relaxed">
@@ -41,7 +41,6 @@ function Texas() {
             <p className="flex items-center text-gray-700">
               <FaPhoneAlt className="text-primary mr-2 size-5" />
               <a href="tel:+12819898889">+1 281-989-8889</a>
-              
             </p>
           </div>
 
@@ -64,9 +63,19 @@ function Texas() {
           {/* enjoy */}
           <div>
             <h3 className="text-xl font-semibold text-red-600 mb-4">
-              Enjoy The Best Taste with:
+              Enjoy Best Online Delivery with:
             </h3>
-            <img src={image} alt="jay Cafe" className="w-[180px] h-auto" />
+            <a
+              href="https://order.online/store/the-jay-cafe-texas-city-33557927/?hideModal=true&pickup=true"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={image}
+                alt="Jay Cafe"
+                className="w-[180px] h-auto text-center"
+              />
+            </a>
           </div>
         </div>
 

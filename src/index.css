@@ -10,11 +10,13 @@
 }
 
 .yellowtail-font {
-    font-family: "Yellowtail", cursive !important;
+    font-family: "Distressed Bold", sans-serif !important;
+    font-weight: 800;
 }
 
 .playFont {
-    font-family: "Playwrite NZ", cursive !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
 }
 
 /* scrollbar styling  */
@@ -68,4 +70,9 @@ button.slick-arrow.slick-prev {
 
 .about-bg{
     background-color: #1d6cb5;
+}
+
+.contact-us-nav{
+    color: red;
+    font-weight: 300;
 }

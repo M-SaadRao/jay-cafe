@@ -79,7 +79,7 @@ const BluePlate = () => {
     return (
         <Container>
             <div className='mb-6 sm:mb-12'>
-                <h3 className='text-[27px] capitalize text-center md:text-[50px] font-medium my-5 leading-none yellowtail-font'>
+                <h3 className='text-[27px] capitalize text-center md:text-[50px]  my-5 leading-none yellowtail-font'>
                     Blue Plate Specials
                 </h3>
 

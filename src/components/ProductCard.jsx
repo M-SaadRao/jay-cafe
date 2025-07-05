@@ -82,7 +82,7 @@ const ProductCard = ({ product, categoryId, isCatProduct, isPartyTray }) => {
 
                 <div className="p-1 sm:p-2 flex flex-col justify-between h-full">
                     <div className="text-center">
-                        <p className="my-2 text-[14px] sm:text-[18px] font-medium text-gray-800">
+                        <p className="my-2 text-[14px] sm:text-[18px] playFont text-gray-800">
                             {product.f_name}
                         </p>
                         <p className="my-2 text-[12px] sm:text-[12px] leading-[1.4] text-gray-800">
@@ -91,7 +91,7 @@ const ProductCard = ({ product, categoryId, isCatProduct, isPartyTray }) => {
                     </div>
                     <div className="text-center mt-auto">
                         {!isPartyTray && (
-                            <p className="font-bold text-primary p-0 my-1 text-[18px] relative">
+                            <p className="playFont text-primary p-0 my-1 text-[18px] relative">
                                 {product.f_price !== "0" && `$${product.f_price}`}
                                 {product.old_price !== "0" && (
                                     <del className="text-gray-800 text-[13px] absolute top-0 right-0 md:right-6 lg:right-12">
@@ -100,7 +100,7 @@ const ProductCard = ({ product, categoryId, isCatProduct, isPartyTray }) => {
                                 )}
                             </p>
                         )}
-                        <Button type="primary" className="rounded-full my-1" onClick={showConfirmationModal}>
+                        <Button type="primary" className="rounded-full my-1 playFont" onClick={showConfirmationModal}>
                             View Details
                         </Button>
                     </div>
