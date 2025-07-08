@@ -40,7 +40,6 @@ const Footer = () => {
             <div className="text-center sm:text-left mt-5 sm:pl-5">
               <h2 className="text-[30px] yellowtail-font mb-4">Needville</h2>
               <p className="text-gray-700 text-[16px]">
-                Full Service: <br />
                 <span>
                   <span>
                     16634 TX-36, Needville,
@@ -49,33 +48,32 @@ const Footer = () => {
                 </span>
               </p>
 
-              <Button
-                type="primary"
-                size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
-                onClick={() => navigate("/needville")}
-              >
-                <span>View Details</span>
-                <FaLocationArrow />
-              </Button>
-              <Button
-                type="primary"
-                size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
-                onClick={() =>
-                  (window.location.href =
-                    "https://order.online/store/the-jay-cafe-needville-23308433/?hideModal=true&pickup=true")
-                }
-              >
-                <span>Order Online</span>
-                <FaLocationArrow />
-              </Button>
-              <p className="mt-2">
-                {/* Phone:{" "}
-                <Link to="tel:+19797937900" className="font-medium">
-                  (979) 793-7900
-                </Link> */}
-              </p>
+              {/* Button container with responsive centering */}
+              <div className="flex flex-col items-center sm:items-start">
+                <Button
+                  type="primary"
+                  size="small"
+                  className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                  onClick={() => navigate("/needville")}
+                >
+                  <span>View Details</span>
+                  <FaLocationArrow />
+                </Button>
+                <Button
+                  type="primary"
+                  size="small"
+                  className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                  onClick={() =>
+                    (window.location.href =
+                      "https://order.online/store/the-jay-cafe-needville-23308433/?hideModal=true&pickup=true")
+                  }
+                >
+                  <span>Order Online</span>
+                  <FaLocationArrow />
+                </Button>
+              </div>
+              
+              <p className="mt-2"></p>
               <div className="flex justify-center sm:justify-start mt-4 space-x-4 text-gray-500">
                 <Link
                   to="https://www.facebook.com/thejaycafeneedville/"
@@ -96,38 +94,36 @@ const Footer = () => {
             <div className="text-center sm:text-left mt-5">
               <h2 className="text-[30px] yellowtail-font mb-4">Lake Jackson</h2>
               <p className="text-gray-700 text-[16px]">
-                Full Service: <br />
                 <span>145 Oyster Creek 1-A, Lake Jackson, TX 77566</span>
               </p>
-              <Button
-                type="primary"
-                size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
-                onClick={() => navigate("/lakejackson")}
-              >
-                <span>View Details</span>
-                <FaLocationArrow />
-              </Button>
+              
+              {/* Button container with responsive centering */}
+              <div className="flex flex-col items-center sm:items-start">
+                <Button
+                  type="primary"
+                  size="small"
+                  className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                  onClick={() => navigate("/lakejackson")}
+                >
+                  <span>View Details</span>
+                  <FaLocationArrow />
+                </Button>
 
-              <Button
-                type="primary"
-                size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
-                onClick={() =>
-                  (window.location.href =
-                    "https://order.online/store/the-jay-cafe-lake-jackson-26102938/?hideModal=true&pickup=true")
-                }
-              >
-                <span>Order Online</span>
-                <FaLocationArrow />
-              </Button>
-              {/* <Link className='text-sm flex items-center gap-3 border' to="https://g.co/kgs/4YQrcv8" target='_blank'><FaLocationArrow className='text-lg text-secondary' /> <span>View On Map</span></Link> */}
-              <p className="mt-2">
-                {/* Phone:{" "}
-                <Link to="tel:+19792928278" className="font-medium">
-                  (979) 292-8278
-                </Link>{" "} */}
-              </p>
+                <Button
+                  type="primary"
+                  size="small"
+                  className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                  onClick={() =>
+                    (window.location.href =
+                      "https://order.online/store/the-jay-cafe-lake-jackson-26102938/?hideModal=true&pickup=true")
+                  }
+                >
+                  <span>Order Online</span>
+                  <FaLocationArrow />
+                </Button>
+              </div>
+              
+              <p className="mt-2"></p>
               <div className="flex justify-center sm:justify-start mt-4 space-x-4 text-gray-500">
                 <Link
                   to="https://www.instagram.com/thejaycafelakejackson"
@@ -147,41 +143,38 @@ const Footer = () => {
             {/* TangerOutlet Mall */}
             <div className="text-center sm:text-left mt-5">
               <h2 className="text-[30px] yellowtail-font mb-4">
-                TangerOutlet Mall
+                Tanger Outlet Mall
               </h2>
               <p className="text-gray-700 text-[16px]">
-                Full Service: <br />
                 <span>Texas City Tanger Outlets Mall Suite 353 </span>
               </p>
-              <Button
-                type="primary"
-                size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
-                onClick={() => navigate("/texas")}
-              >
-                <span>View Details</span>
-                <FaLocationArrow />
-              </Button>
-              <Button
-                type="primary"
-                size="small"
-                className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
-                onClick={() =>
-                  (window.location.href =
-                    "https://order.online/store/the-jay-cafe-texas-city-33557927/?hideModal=true&pickup=true")
-                }
-              >
-                <span>Order Online</span>
-                <FaLocationArrow />
-              </Button>
-
-              {/* <Link className='text-sm flex items-center gap-3 border' to="https://g.co/kgs/4YQrcv8" target='_blank'><FaLocationArrow className='text-lg text-secondary' /> <span>View On Map</span></Link> */}
-              <p className="mt-2">
-                {/* Phone:{" "}
-                <Link to="tel:+12819898889" className="font-medium">
-                  (281) 989-8889
-                </Link>{" "} */}
-              </p>
+              
+              {/* Button container with responsive centering */}
+              <div className="flex flex-col items-center sm:items-start">
+                <Button
+                  type="primary"
+                  size="small"
+                  className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                  onClick={() => navigate("/texas")}
+                >
+                  <span>View Details</span>
+                  <FaLocationArrow />
+                </Button>
+                <Button
+                  type="primary"
+                  size="small"
+                  className="font-medium leading-none mt-2 mb-1 flex items-center gap-2"
+                  onClick={() =>
+                    (window.location.href =
+                      "https://order.online/store/the-jay-cafe-texas-city-33557927/?hideModal=true&pickup=true")
+                  }
+                >
+                  <span>Order Online</span>
+                  <FaLocationArrow />
+                </Button>
+              </div>
+              
+              <p className="mt-2"></p>
               <div className="flex justify-center sm:justify-start mt-4 space-x-4 text-gray-500">
                 <Link
                   to="https://www.instagram.com/thejaycafelakejackson"
@@ -199,14 +192,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div className="text-center sm:text-right font-medium text-[16px] mt-5">
-            Open Every Day: 10 AM - 9 PM
-          </div> */}
-
-          {/* Divider */}
           <hr className="my-6 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-8 h-1 bg-primary" />
 
-          {/* Footer Bottom Text */}
           <div className="text-center">
             <span className="block  text-gray-500 dark:text-gray-400">
               &copy; {new Date().getFullYear()}{" "}

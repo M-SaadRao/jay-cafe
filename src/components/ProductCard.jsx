@@ -5,6 +5,7 @@ import { CloseOutlined } from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { setUserSelectedOrderType } from '../store/user/userSlice';
 import logo from "../assets/images/final-logo.png";
+import defaultimg from "../assets/images/abc.png" 
 
 const ProductCard = ({ product, categoryId, isCatProduct, isPartyTray }) => {
     // Support both string and number comparisons

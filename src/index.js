@@ -1,25 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { ConfigProvider, App as AntdApp } from 'antd';
-import { Provider } from 'react-redux';
-import store from './store/store';
-import { PersistGate } from 'redux-persist/integration/react';
-import { persistStore } from 'redux-persist';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { ConfigProvider, App as AntdApp } from "antd";
+import { Provider } from "react-redux";
+import store from "./store/store";
+import { PersistGate } from "redux-persist/integration/react";
+import { persistStore } from "redux-persist";
+import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const theme = {
   token: {
-    colorPrimary: "#1D6CB6"
+    colorPrimary: "#1D6CB6",
   },
-  components: {}
-}
+  components: {},
+};
 
 const persistor = persistStore(store);
 
@@ -29,7 +28,9 @@ root.render(
       <ConfigProvider theme={theme}>
         <AntdApp>
           <BrowserRouter>
-            <App />
+            <HelmetProvider>
+              <App />
+            </HelmetProvider>
           </BrowserRouter>
         </AntdApp>
       </ConfigProvider>
