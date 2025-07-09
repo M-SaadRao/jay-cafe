@@ -18,7 +18,7 @@ const TexasHero = () => {
 
         {/* Hero Heading */}
         <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
-          <h1 className="text-white text-2xl md:text-5xl font-bold leading-tight max-w-4xl">
+          <h1 className="text-white text-1xl md:text-5xl font-bold leading-tight max-w-4xl">
             Welcome to The Jay Café – Texas City’s Local Favorite ,
             <br className="hidden md:block" /> for Comfort Food
           </h1>
