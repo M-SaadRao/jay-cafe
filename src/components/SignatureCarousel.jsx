@@ -13,15 +13,22 @@ import dish5 from "../assets/images/lake jackson/lake carousel 5.webp";
 
 const SignatureCarousel = () => {
   const dishes = [dish1, dish2, dish3, dish4, dish5];
+  const altTexts = [
+    "Big Tex Chicken Fried Steak with country sides",
+    "Plate of Chicken Fried Chicken with mashed potatoes and gravy",
+    "Chicken tender platter",
+    "Fried Jumbo Gulf Shrimp with tartar sauce",
+    "New York Strip wood-grilled steak with baked potato",
+  ];
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4">
+    <div className="w-[350px] sm:w-[603px] md:w-full max-w-6xl mx-auto px-4">
       <Swiper
         modules={[Autoplay]}
         loop={true}
         spaceBetween={20}
         slidesPerView={3}
-        slidesPerGroup={1} // Scroll only one at a time
+        slidesPerGroup={1}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -38,8 +45,8 @@ const SignatureCarousel = () => {
             <div className="h-[250px] md:h-[300px] overflow-hidden rounded-xl shadow">
               <img
                 src={dish}
-                alt={`Dish ${index + 1}`}
-                className="w-full h-full object-cover img-fluid"
+                alt={altTexts[index]}
+                className="w-full h-full object-cover"
               />
             </div>
           </SwiperSlide>

@@ -101,11 +101,11 @@ function Lakejackson() {
             </p>
 
             {/* Carousel Placeholder */}
-            {/* <div className="w-full h-[250px] md:h-[350px] bg-gray-200 rounded-lg flex items-center justify-center shadow-inner">
+            <div className="w-full h-[250px] md:h-[300px] bg-gray-200 rounded-lg flex items-center justify-center shadow-inner">
               <span className="text-gray-500 text-lg px-4 text-center">
                 <SignatureCarousel />
               </span>
-            </div> */}
+            </div>
           </div>
         </section>
 
@@ -172,7 +172,7 @@ function Lakejackson() {
             <div>
               <img
                 src={baconJay}
-                alt="Close-up of Bacon Jay burger with fries"
+                alt="Bacon Jay Burger with home-cut fries and jalapeños"
                 className="w-full rounded-xl shadow-md object-cover"
               />
             </div>
@@ -334,7 +334,8 @@ function Lakejackson() {
             <div>
               <img
                 src={wippedCream}
-                alt="Homemade pie slice with whipped cream"
+                alt="Slice of homemade coconut cream pie with whipped 
+                topping"
                 className="w-full rounded-xl shadow-md object-cover"
               />
             </div>
