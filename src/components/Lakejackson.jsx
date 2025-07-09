@@ -11,6 +11,7 @@ import wippedCream from "../assets/images/lake jackson/wipped cream.jpg";
 import LakejacksonFAQs from "../components/LakejacksonFAQs";
 import LakejacksonHero from "./LakejacksonHero";
 
+
 function Lakejackson() {
   return (
     <>
