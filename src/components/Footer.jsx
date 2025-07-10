@@ -11,7 +11,7 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
     <Container>
-      <div className="mt-[50px]">
+      <div className="mt-[10px]">
         <iframe
           src="https://widget.tagembed.com/2135385"
           style={{ width: "100%", height: "500px", border: "none" }}
@@ -67,6 +67,7 @@ const Footer = () => {
                     (window.location.href =
                       "https://order.online/store/the-jay-cafe-needville-23308433/?hideModal=true&pickup=true")
                   }
+                  target="_blank"
                 >
                   <span>Order Online</span>
                   <FaLocationArrow />

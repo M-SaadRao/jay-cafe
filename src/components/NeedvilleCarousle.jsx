@@ -5,13 +5,14 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 // Dummy image imports
-import dish1 from "../assets/images/texas/texas 1.webp";
-import dish2 from "../assets/images/texas/texas 2.webp";
-import dish3 from "../assets/images/texas/texas 3.webp";
-import dish4 from "../assets/images/texas/texas 4.webp";
-import dish5 from "../assets/images/texas/texas 5.webp";
+import dish1 from "../assets/images/needville/needville 1.webp";
+import dish2 from "../assets/images/needville/needville 2.webp";
+import dish3 from "../assets/images/needville/needville 3.webp";
+import dish4 from "../assets/images/needville/needville 4.webp";
+import dish5 from "../assets/images/needville/needville 5.webp";
 
-const TaxesCarousel = () => {
+
+const NeedvilleCarousel = () => {
   const dishes = [dish1, dish2, dish3, dish4, dish5];
   const altTexts = [
     "Big Tex Chicken Fried Steak with country sides",
@@ -56,4 +57,4 @@ const TaxesCarousel = () => {
   );
 };
 
-export default TaxesCarousel;
+export default NeedvilleCarousel;

@@ -1,7 +1,7 @@
 import React from "react";
-import heroImg from "../assets/images/texas/texas-hero1.png";
+import heroImg from "../assets/images/needville/needville-hero.jpg";
 
-const TexasHero = () => {
+const NeedvilleHero = () => {
   return (
     <>
       {/* Hero Image Section */}
@@ -18,30 +18,28 @@ const TexasHero = () => {
 
         {/* Hero Heading */}
         <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
-          <h1 className="text-white text-1xl md:text-5xl font-bold leading-tight max-w-4xl">
-            Welcome to The Jay Café – Texas City’s Local Favorite ,
-            <br className="hidden md:block" /> for Comfort Food
+          <h1 className="text-white text-2xl md:text-4xl font-bold leading-tight max-w-4xl">
+            Welcome to The Jay Café – Needville’s
+            <br className="hidden md:block" /> Favorite Comfort Food Spot
           </h1>
         </div>
       </section>
 
       {/* Content Below Hero */}
-
       <section className="bg-white py-10 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-base md:text-lg text-gray-800 leading-relaxed">
             Welcome to{" "}
             <span className="font-semibold text-primary">
-              The Jay Café – Texas City
+              The Jay Café – Needville
             </span>
-            , your new <em>burgers restaurant near me</em> destination at{" "}
-            <strong>5885 Gulf Fwy #353, Texas City, TX 77591</strong>. We serve
-            mouthwatering <em>bacon cheeseburgers</em>, <em>burgers near me</em>
-            , <em>fried chicken near me</em>, <em>chicken fried steak</em>,{" "}
-            <em>chopped sirloin steak</em>, <em>Texas ribeye steak</em>, and
-            irresistible homemade pie, all made fresh daily. Craving{" "}
-            <em>fried shrimp</em> or a savoury <em>grilled chicken breast</em>?
-            We’ve got you covered!
+            , your new destination for home cooking in Needville, TX at{" "}
+            <strong>16634 TX-36, Needville, TX 77461, United States</strong>. We’re proud to serve
+            crave-worthy <em>fried chicken near me</em>, <em>burger near me</em>
+            , chopped sirloin steak, grilled chicken breast, chicken fried
+            steak, and homemade pie, plus our signature <em>fried mushrooms</em>
+            , <em>fried shrimp</em>, and <em>peach cobbler</em>—all made fresh
+            daily.
           </p>
         </div>
       </section>
@@ -49,4 +47,4 @@ const TexasHero = () => {
   );
 };
 
-export default TexasHero;
+export default NeedvilleHero;
